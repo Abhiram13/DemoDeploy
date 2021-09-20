@@ -29,5 +29,5 @@ jobs:
       uses: actions/upload-artifact@v2.2.2
       with:
         name: Customers
-        path: DemoDeploy/Cust/Customers.html
+        path: src/Customers.html
         if-no-files-found: error
